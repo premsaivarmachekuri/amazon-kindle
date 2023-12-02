@@ -1,7 +1,7 @@
 import React, { useState, createContext, useEffect } from 'react';  // Import React and createContext
 // import CheckBox from './components/CheckBox';
 // import BlogFetchData from './components/FetchData'
-import { printData} from './components/FetchData'
+// import { printData} from './components/FetchData'
 import Sidebar from './pages/Sidebar';
 export const DataContext = createContext(null);
 
@@ -14,7 +14,7 @@ function App() {
   }`);
   // const 
   useEffect(() => {
-    printData("Hello")
+    // printData("Hello")
   },[query])
 
   return (
